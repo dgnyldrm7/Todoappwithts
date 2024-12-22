@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                // Çıkış JavaScript kodunun sürümü (ES6 veya üstü)
+      "module": "ES6",                // Modül sistemi olarak ES6 kullanımı
+      "rootDir": "./src",             // TypeScript kaynak dosyalarının başlangıç klasörü
+      "outDir": "./dist",             // Derlenmiş dosyaların çıkış klasörü
+      "strict": true,                 // Daha sıkı yazım denetimi (isteğe bağlı)
+      "esModuleInterop": true,        // CommonJS ve ES modülleri arasındaki uyumluluk
+      "moduleResolution": "node",    // Node modül çözümleme
+      "forceConsistentCasingInFileNames": true // Büyük-küçük harf duyarlılığı
+    },
+    "include": [
+      "src/**/*.ts"                   // Derlenecek dosyaların yolu
+    ],
+    "exclude": [
+      "node_modules"                  // Derleme dışı bırakılacak klasör
+    ]
+}
