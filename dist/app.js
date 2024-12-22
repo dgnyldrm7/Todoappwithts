@@ -9,7 +9,7 @@ document.addEventListener('keypress', function (e) {
         AddTodo();
     }
 });
-// Global erişim için fonksiyonları window'a bağla
+
 window.DeleteTodo = DeleteTodo;
 window.DoneTodo = DoneTodo;
 window.ToggleDone = ToggleDone;
